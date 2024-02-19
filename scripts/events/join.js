@@ -48,8 +48,8 @@ module.exports.run = async function({ api, event, Users }) {
   if (event.logMessageData.addedParticipants && Array.isArray(event.logMessageData.addedParticipants) && event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
     //api.changeNickname(`𝗕𝗢𝗧 ${(!global.config.BOTNAME) ? "Buddy" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
 
-    let gifUrl = 'https://i.postimg.cc/nLtks3yx/IMG-20240207-WA0001.jpg';
-let gifPath = __dirname + '/Nayan/join/join.gif';
+    let gifUrl = 'https://i.postimg.cc/1tSMPx2y/R.jpg';
+let gifPath = __dirname + '/Nayan/join/R.jpg';
 
 axios.get(gifUrl, { responseType: 'arraybuffer' })
 .then(response => {
