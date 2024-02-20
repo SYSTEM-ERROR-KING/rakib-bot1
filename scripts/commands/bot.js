@@ -55,7 +55,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
    if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "creator")) {
-     return api.sendMessage("‎[Bot owner :亗 BOSS FARHAN 亗 \n𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 Picchi in English . Facebook id:-https://www.facebook.com/FarhanIslamImon.official?mibextid=b06tZ0  \n whatsApp :-দিমু নাহ ", threadID);
+     return api.sendMessage("‎[Bot owner :亗 BOSS Rakib 亗 \n𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 Picchi in English . Facebook id:-https://www.facebook.com/FarhanIslamImon.official?mibextid=b06tZ0  \n whatsApp :-দিমু নাহ ", threadID);
    };
 
    if ((event.body.toLowerCase() == "bot কে বানাইছে") || (event.body.toLowerCase() == "tumke banaise ke?")) {
