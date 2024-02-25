@@ -15,7 +15,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	if (event.body.indexOf("RAKIB")==0 || event.body.indexOf("Rakib")==0 || event.body.indexOf("রাকিব")==0 || event.body.indexOf("@Rakib Chowdhury")==0) {
 		var msg = {
-				body: " - আৃঁমাৃঁরৃঁ বৃঁসৃঁ এ্ঁখ্ঁন্ঁ খু্ঁব্ঁ বি্ঁজি্ঁ 🥰❤️🥀",
+				body: " - ~ আমার মালিক https://www.facebook.com/SYSTEM.ERROR.KING এখন বিজি আছে যা বলার সন্ধা ৬ টার পরে বলবেন ধন্যবাদ..!!",
 				attachment: fs.createReadStream(__dirname + `/cache/amiekonbg.mp3`)
 			}
 			api.sendMessage( msg, threadID, messageID);
