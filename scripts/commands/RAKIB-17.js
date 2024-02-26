@@ -13,7 +13,7 @@ module.exports.config = {
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
-			if (event.body.indexOf("Good morning")==0 || event.body.indexOf("good morning")==0 || event.body.indexOf("gd m9")==0 || event.body.indexOf("Gd M9")==0) {
+		if (event.body.indexOf("Good morning")==0 || event.body.indexOf("good morning")==0 || event.body.indexOf("gd m9")==0 || event.body.indexOf("Gd M9")==0) {
 		var msg = {
 				body: "~ শুভ সকাল জ্যানু ত্যাহ এবার তো উটো..!!",
 				attachment: fs.createReadStream(__dirname + `/cache/goodmorning.mp3`)
